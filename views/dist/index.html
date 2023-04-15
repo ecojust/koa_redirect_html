@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project1</title>
+  </head>
+  <body>
+    <!-- <button onclick="replace('/project2')">project2</button> -->
+
+    <button class="home" onclick="replace('')">home</button>
+
+    <hr />
+    <h1>这是相同端口下的项目1</h1>
+
+    <h2>root:dist</h2>
+    <h2>图片地址:/dist/images/sai.jpeg</h2>
+
+    <img src="/dist/images/sai.jpeg" alt="" />
+  </body>
+
+  <script>
+    function replace(url) {
+      window.location.replace(window.location.origin + url);
+    }
+  </script>
+</html>
